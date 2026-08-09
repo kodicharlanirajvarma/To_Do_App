@@ -1,37 +1,38 @@
 # To-Do List Application
 
-A Python based command-line task management application using Object-Oriented Programming.
+A Python-based command-line task management application built using Object-Oriented Programming.
 
 ## Features
 
-- Add tasks
+- Add tasks with priority and due dates
 - Edit tasks
 - Delete tasks
 - Complete and reopen tasks
 - Search tasks
-- Sort by priority
-- Sort by due date
+- Sort tasks by priority
+- Sort tasks by due date
 - Detect overdue tasks
-- Store data using JSON
+- Store task data using JSON
 
 ## Concepts Used
 
-- Python OOP
+- Object-Oriented Programming (OOP)
 - Classes and Objects
 - File Handling
-- JSON
+- JSON Data Storage
 - Exception Handling
-- Modules
+- Python Modules
 
 ## Project Structure
 
-main.py       - User interface
-tasks.py      - Task class
-todo.py       - Task management logic
-storage.py    - Data storage
-
-## How to Run
-
-```bash
+```text
+main.py       - User interface and program control
+tasks.py      - Task class and task properties
+todo.py       - Task management operations
+storage.py    - JSON file handling
+tasks.json    - Stores task data
+```
+### How to run
+```text
 python main.py
-
+```
