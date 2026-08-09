@@ -23,14 +23,15 @@ A Python based command-line task management application using Object-Oriented Pr
 - Exception Handling
 - Modules
 
-## How to Run
-
-```bash
-python main.py
-
-Project Structure
+## Project Structure
 
 main.py       - User interface
 tasks.py      - Task class
 todo.py       - Task management logic
 storage.py    - Data storage
+
+## How to Run
+
+```bash
+python main.py
+
